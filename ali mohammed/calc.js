@@ -2,44 +2,44 @@ alert(`مرحبا بك في موقعي الذي سيحسب درجنك`)
 
 
 
-let  grade =  prompt(`ادخل درجتك هنا`);
+let  grade =  prompt(`ادخل درجتك هنا` );
 console.log(grade)
 
-if (  grade > 90 &&  grade < 100 ){
+if (  grade >= 90 &&  grade <= 100 ){
 
 
-console.log(`لقد حصلت على امتياز 🥳`)
+console.log(`%cلقد حصلت على امتياز 🥳`, "color:green")
 
-} else if( grade > 80 && grade < 89 ){
-
-
-console.log(`لقد حصلت على جيد جداً🤩`)
-
-} else if ( grade > 70 && grade < 79){
-
-console.log(`لقد حصلت على امتياز 🥳`)
+} else if( grade >= 80 && grade <=89 ){
 
 
-}else if ( grade >60 && grade < 69){
+console.log( `%cلقد حصلت على جيد جداً🤩`,"color:green" )
 
-    console.log(`لقد حصلت على جيد🙂`)
-}else if (grade > 50 && grade <59 ){
+} else if ( grade >= 70 && grade <=79){
 
-
-console.log(`لقد حصلت على مقبول😕`)
-
-}else if ( garde >= 49) {
+console.log(`%cلقد حصلت على امتياز 🥳`, "color: green")
 
 
-    console.log(راسب)
+}else if ( grade >=60 && grade <=69){
+
+    console.log(`%c لقد حصلت على جيد🙂`, "color:green")
+}else if (grade >= 50 && grade <=59 ){
 
 
+console.log(`%cلقد حصلت على مقبول😕`, "color:green")
+
+} else if ( grade <= 50) {
+
+    console.log(`%cراسب`, "color:green")
 
 
 }
 
-// هذا جافا سكربت
 
+
+
+
+// جافاسكربت ليست جافا
 
 
 
